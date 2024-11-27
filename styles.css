@@ -1,0 +1,69 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FDEEF4; /* Soft blush pink */
+  color: #000000; /* Black font */
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #F4D1E0; /* Slightly darker pink for contrast */
+  text-align: center;
+  padding: 1em 0;
+}
+
+h1, h2 {
+  font-family: 'Cinzel', serif; /* Elegant serif font */
+}
+
+ /* Flexbox Navigation */
+nav ul {
+  display: flex; /* Enables Flexbox */
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 20px; /* Adds spacing between links */
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+main {
+  display: flex; /* Enables Flexbox */
+  justify-content: space-between; /* Aligns text and image with space between */
+  align-items: center; /* Aligns items vertically */
+  padding: 20px; /* Keeps some padding around the main content */
+}
+
+main img {
+  max-width: 50%; /* Ensures the image takes up no more than half the space */
+  height: auto; /* Maintains the image proportions */
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #F4D1E0;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
